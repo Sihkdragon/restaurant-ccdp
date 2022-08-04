@@ -11,11 +11,10 @@ const TableRow = ({ index, NamaMenu, jenis, harga }: TableRowProps) => {
       <th className="py-3 px-6 text-left">{index + 1}.</th>
       <td className="py-3 px-6 text-left whitespace-nowrap">
         <div className="flex items-center">
-          <div className="mr-2"></div>
           <span className="font-medium">{NamaMenu}</span>
         </div>
       </td>
-      <td className="py-3 px-6 text-left">{jenis}</td>
+      <td className="py-3 px-6 text-center">{jenis}</td>
       <td className="py-3 px-6 text-center">
         <span className="bg-purple-200 text-purple-600 py-1 px-3 rounded text-xs">
           {harga}
